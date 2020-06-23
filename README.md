@@ -67,7 +67,12 @@ _“Some people call this artificial intelligence, but the reality is this techn
 
 As part of an ongoing project for the SDC (Soldier Design Competition), a group of Army ROTC cadets at MIT came up with the idea for DROIDVision (Digitally-Regulated Objects of Interest Detection Vision). DROIDVision is meant to solve problems with situational awareness in military operations by providing intelligence for a given area of operation (AO) before, during, and after soldiers are there. This is the mission statement for the project:
 
-    Information about an AO is important to the foot-soldier because he is the one on the ground making instantaneous decisions with immediate consequences. Information about an AO is also important to higher command because it informs these macro-decision makers in their leadership and directive responsibilities of the foot-soldiers. DROID Vision enables real-time, passive, and automatic dissemination of visual information that describes a particular AO.
+```
+Information about an AO is important to the foot-soldier because he is the one on the ground making instantaneous
+decisions with immediate consequences. Information about an AO is also important to higher command because it informs
+these macro-decision makers in their leadership and directive responsibilities of the foot-soldiers. DROID Vision
+enables real-time, passive, and automatic dissemination of visual information that describes a particular AO.
+```
 
 At its core, DROIDVision is a tactically-scaled relay driven by AI to provide distances, directions, and descriptions of objects in certain areas, whether they be people, vehicles, animals, etc. Simply speaking, it was essentially a small Raspberry Pi computer powered by Google’s MobileNet Machine Vision architecture, and a camera. Across a number of trials that varied number of people in frame, their distance from the device, and their orientation with respect to it, DROIDVision has accuracies ranging from 50% for side-profiles of people on the low end to 90% for small groups of people at a fixed distance on the high end. The full results of the DROID prototype, as well as images of it and its components, can be found in _Appendix A_.
 
@@ -141,10 +146,118 @@ Functionally speaking, these robots of tomorrow are better than human soldiers i
 
 Honor is one of the most fundamental attributes of the US Army officer corps. The concept has existed in some form or another since the inception of organized society; it was codified in the feudalistic structure of the medieval ages; it persists to this day in the United States Code of Military Justice:
 ```
-...any commissioned officer, cadet or midshipman who is convicted of conduct unbecoming an officer and a gentleman shall be punished as a court-martial may direct.
+...any commissioned officer, cadet or midshipman who is convicted of conduct unbecoming
+an officer and a gentleman shall be punished as a court-martial may direct.
 ```
 Honor cannot be expressed wholly in words or broken down into pure logic and symbols to be converted into an algorithm, it must simply be felt. Honor lies deep within Lawrence’s _irrational tenth_ that cannot be completely taught in schools.
 
 For while a robot can be taught to identify enemies and innocents according to the rules of engagement better than a human and to shoot better than a human, it can never be taught that there are some moments when you _should just not shoot_ (see Appendix B for a powerful example of one such time from Lawrence’s diary). So long as honor exists in this world, autonomous systems cannot be permitted to roam the battlefield truly autonomously. There must always be a human in the loop, watching closely over these robots and taking responsibility for their actions.
 
 So autonomous weapons ought to be developed. They ought to be used and improved upon _ad infinitum_. They will transform the world - for the better, if ethical people develop them first - and they will save many innocent lives with their superhuman fighting ability. But they will not do so completely autonomously. By implementing a tight human-AI partnership on the battlefield, we will find more ethical and more effective soldiers than ever before. Humanity cannot ever be replaced in war. It is, after all, its most essential ingredient.
+
+-------------------
+## Appendix A: DROIDVision Results and Images
+_Values are certainties on scale from 0 (least certain) to 1 (most certain)_
+
+**Number of People in Frame**
+|        | 1    | 2    | 3    | 4    | 5    |
+|--------|------|------|------|------|------|
+| Trial1 | 0.86 | 0.85 | 0.86 | 0.83 | 0.87 |
+| Trial2 | 0.88 | 0.9  | 0.82 | 0.89 | 0.84 |
+| Trial3 | 0.84 | 0.86 | 0.88 | 0.85 | 0.84 |
+
+**Distance from Camera**
+|        | 0.5 m | 1 m  | 2 m  | 3 m  | 5 m  |
+|--------|-------|------|------|------|------|
+| Trial1 | 0.87  | 0.76 | 0.71 | 0.65 | 0.55 |
+| Trial2 | 0.88  | 0.78 | 0.69 | 0.64 | 0.61 |
+| Trial3 | 0.84  | 0.78 | 0.72 | 0.62 | 0.58 |
+
+**Orientation of person (in degrees of rotation from face-forward)**
+|        | 0    | 30   | 45   | 90   | 180  |
+|--------|------|------|------|------|------|
+| Trial1 | 0.86 | 0.71 | 0.76 | 0.55 | 0.61 |
+| Trial2 | 0.88 | 0.69 | 0.71 | 0.68 | 0.53 |
+| Trial3 | 0.87 | 0.75 | 0.68 | 0.52 | 0.54 |
+
+***[Components Redacted]***
+
+## Appendix B: Seven Pillars of Wisdom Passage
+
+_As I rode up the bank my camel's feet scrambled in the loose ballast, and out of the long shadow of a culvert to my left, where, no doubt, he had slept all day, rose a Turkish soldier. He glanced wildly at me and at the pistol in my hand, and then with sadness at his rifle against the abutment, yards beyond. He was a young man; stout, but sulky-looking. I stared at him, and said, softly, 'God is merciful'. He knew the sound and sense of the Arabic phrase, and raised his eyes like a flash to mine, while his heavy sleep-ridden face began slowly to change into incredulous joy._
+
+_However, he said not a word. I pressed my camel's hairy shoulder with my foot, she picked her delicate stride across the metals and down the further slope, and the little Turk was man enough not to shoot me in the back, as I rode away, feeling warm towards him, as ever towards a life one has saved. At a safe distance I glanced back. He put thumb to nose, and twinkled his fingers at me._
+
+[Seven Pillars of Wisdom by T.E. Lawrence](http://gutenberg.net.au/ebooks01/0100111h.html)
+
+## Work Cited
+
+“8 Key Military Applications for Artificial Intelligence in 2018.” Accessed December 9, 2019. https://blog.marketresearch.com/8-key-military-applications-for-artificial-intelligence-in-2018.
+
+“A Brief History of Precision Guided Weapons.” Accessed December 9, 2019. http://www.tfcbooks.com/special/missiles.htm.
+
+“AI.” Accessed October 15, 2019. https://innovation.defense.gov/ai/.
+
+The Strategist. “AI and National Security: Lethal Robots or Better Logistics?,” July 19, 2018. https://www.aspistrategist.org.au/ai-and-national-security-lethal-robots-or-better-logistics/.
+
+www.army.mil. “AI Task Force Taking Giant Leaps Forward.” Accessed October 15, 2019. https://www.army.mil/article/225642/ai_task_force_taking_giant_leaps_forward.
+
+Allen, Greg, and Taniel Chan. “Artificial Intelligence and National Security.” National Security, 2017, 132.
+
+“Are Killer Robots the Future of War? Parsing the Facts on Autonomous Weapons - The New York Times.” Accessed December 9, 2019. https://www.nytimes.com/2018/11/15/magazine/autonomous-robots-weapons.html.
+
+www.army.mil. “Battlefield Artificial Intelligence Gets $72M Army Investment.” Accessed October 15, 2019. https://www.army.mil/article/218354/battlefield_artificial_intelligence_gets_72m_army_investment.
+
+“Bennett - Groundwork for the Metaphysic of Morals.Pdf.” Accessed December 9, 2019. https://www.earlymoderntexts.com/assets/pdfs/kant1785.pdf.
+
+Bennett, Jonathan. “Groundwork for the Metaphysic of Morals.” Immanuel Kant, n.d., 53.
+
+“‘Black Hearts’ Case Study: The Yusufiyah Crimes, Iraq, March 12, 2006 | Written Case Study | CAPL.” Accessed December 9, 2019. https://capl.army.mil/case-studies/wcs-single.php?id=78&title=black-hearts-yusufiyah-iraq.
+
+Cheeseman, Peter. “In Defense of Probability.” In Proceedings of the 9th International Joint Conference on Artificial Intelligence - Volume 2, 1002–1009. IJCAI’85. San Francisco, CA, USA: Morgan Kaufmann Publishers Inc., 1985. http://dl.acm.org/citation.cfm?id=1623611.1623677.
+
+“China’s Military Is Rushing to Use Artificial Intelligence - MIT Technology Review.” Accessed December 9, 2019. https://www.technologyreview.com/f/612915/chinas-military-is-rushing-to-use-artificial-intelligence/.
+
+“China’s Surveillance State Should Scare Everyone - The Atlantic.” Accessed December 9, 2019. https://www.theatlantic.com/international/archive/2018/02/china-surveillance/552203/.
+
+Dreyfus, Hubert L. “ALCHEMY AND ARTIFICIAL INTELLIGENCE,.” RAND CORP SANTA MONICA CALIF, December 1965. https://apps.dtic.mil/docs/citations/AD0625719.
+
+The Strategist. “Ethical AI for Defence,” August 19, 2019. https://www.aspistrategist.org.au/ethical-ai-for-defence/.
+
+Harbaugh, Jennifer. “Biography of Wernher Von Braun.” Text. NASA, February 18, 2016. http://www.nasa.gov/centers/marshall/history/vonbraun/bio.html.
+
+“Has Global Violence Declined? A Look at the Data - Towards Data Science.” Accessed December 9, 2019. https://towardsdatascience.com/has-global-violence-declined-a-look-at-the-data-5af708f47fba.
+
+“Hiroshima: The Harry Truman Diary and Papers.” Accessed December 9, 2019. http://www.doug-long.com/hst.htm.
+
+“Laws, by Plato.” Accessed December 9, 2019. https://www.gutenberg.org/files/1750/1750-h/1750-h.htm.
+
+“Mobile Vision  |  Google Developers.” Accessed December 9, 2019. https://developers.google.com/vision.
+
+“North Korea Pursuing Domestic Development of AI, State Media Says - UPI.Com.” Accessed December 9, 2019. https://www.upi.com/Top_News/World-News/2019/07/31/North-Korea-pursuing-domestic-development-of-AI-state-media-says/3811564584016/.
+
+“Pros and Cons of Autonomous Weapons Systems.” Accessed December 9, 2019. https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/May-June-2017/Pros-and-Cons-of-Autonomous-Weapons-Systems/.
+
+The Strategist. “Red Cross Is Seeking Rules for the Use of ‘Killer Robots,’” December 17, 2018. https://www.aspistrategist.org.au/red-cross-is-seeking-rules-for-the-use-of-killer-robots/.
+
+“Russia Has Released Footage of Its New ‘Hunter’ Stealth Attack Drone - CNN.” Accessed December 9, 2019. https://www.cnn.com/2019/08/08/europe/russia-hunter-drone-scli-intl/index.html.
+
+Atlantic Council. “Sanctions Propel Iran in the Global Race for Terminator-like AI,” April 2, 2019. https://www.atlanticcouncil.org/blogs/iransource/sanctions-propel-iran-in-the-global-race-for-terminator-like-ai/.
+
+Spiegeleire, Stephan De, Matthijs Maas, and Tim Sweijs. Artificial Intelligence and the Future of Defense: Strategic Implications For Small- and Medium-Sized Force Providers. The Hague Centre for Strategic Studies, 2017.
+
+“The First Drones, Used in World War I.” Accessed December 9, 2019. https://io9.gizmodo.com/the-first-drones-used-in-world-war-i-453365075.
+
+“TRACE.” Accessed December 9, 2019. https://www.darpa.mil/program/trace.
+
+“UAVs.” Accessed December 9, 2019. https://web.archive.org/web/20130601053222/http://www.airpower.maxwell.af.mil/airchronicles/cc/uav.html.
+
+University, Carnegie Mellon. “The Balance of AI, Ethics and the Military - News - Carnegie Mellon University,” $dateFormat. http://www.cmu.edu/news/stories/archives/2019/march/ai-ethics.html.
+
+University, Stanford. “Ethics of Autonomous Weapons.” Stanford News, May 1, 2019. https://news.stanford.edu/2019/05/01/ethics-autonomous-weapons/.
+
+Waldrop, M. M. “Man-Made Minds: The Promise of Artificial Intelligence,” January 1, 1987. https://www.osti.gov/biblio/6449864.
+
+“Weapons of the Weak: Russia and AI-Driven Asymmetric Warfare.” Accessed December 9, 2019. https://www.brookings.edu/research/weapons-of-the-weak-russia-and-ai-driven-asymmetric-warfare/.
+
+“ارتش رباتیک ایران فراتر از مرزها - Sputnik Iran.” Accessed December 9, 2019. https://ir.sputniknews.com/opinion/201902044411288-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A7%D8%B1%D8%AA%D8%B4-%D8%B1%D8%A8%D8%A7%D8%AA%DB%8C%DA%A9/.
