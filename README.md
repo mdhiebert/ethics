@@ -1,5 +1,7 @@
 # The Human Element: The Ethics of AI in Defense
 
+![Bedouin sheik on horse in the desert clutches his rifle.](https://i.dailymail.co.uk/1/2018/09/28/11/4605066-6218243-image-m-47_1538129603208.jpg)
+
 _“The ‘felt’ element in troops, not expressible in figures, had to be guessed at by the equivalent of Plato’s δόξά [judgement], and the greatest commander of men was he whose intuitions most nearly happened. Nine-tenths of tactics were certain enough to be teachable in schools; but the irrational tenth was like the kingfisher flashing across the pool, and in it lay the test of generals. It can only be ensued by instinct, sharpened by thought practising the stroke so often that at the crisis it is as natural as a reflex.”_ -T.E. Lawrence
 
 Lawrence penned those words in his journal during the height of the Arab Revolt of the early 20th century. He was serving as the liaison between the Arab and European worlds as the former sought to break free from its master - the Ottoman Empire. The Empire, on paper, was considerably more formidable than the tenuously allied tribes of the Middle East. It had far more resources at its disposal, far more troops, and, chiefly, was far more advanced; an elaborate network of railroads across the region was its most prominent display of this fact. Lawrence, practically speaking, had only men and animals to work with. Yet, in the most dramatic display of man versus machine the world had ever seen, man won. 
@@ -11,6 +13,9 @@ The use of drones, precision-guided systems, and artificial intelligence algorit
 Exactly what to do, however, is controversial. There are two main schools of thought on the matter - one which believes that these weapons are more capable of operating ethically due to their superhuman abilities, and one which believes these weapons are less capable because they are not human at all. In this paper, we will traverse the history of autonomous weapons and their current use cases before weighing potential concerns and benefits in the context of ethics as we explore further whether autonomous weapons and systems should be allowed in war. The answer, we find, is that autonomous weapons ought to be allowed in war, but with extremely close human oversight. Man is emboldened in his ability to do good by these machines, and in turn these machines are hindered in their ability to do evil by man. The human aspect of war is just too important to remove entirely.
 
 ## An Ethical Foundation of Technology in War
+
+![Artist's rendition of the use of AI in a tactical setting.](https://wwwassets.rand.org/content/rand/blog/2017/09/artificial-intelligence-and-the-military/jcr:content/par/blogpost.aspectcrop.868x455.cm.jpg/x1505406449165.jpg.pagespeed.ic.bS9Ts6m3f0.webp)
+
 _“War must be, while we defend our lives against a destroyer who would devour all; but I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I love only that which they defend.”_ -J.R.R. Tolkien
 
 At the heart of this issue lies the central ideas of justice and just war. Autonomous systems are only able to act ethically if they are operating within the confines of an ethical conflict. Plato is his Laws contemplates the “right” way to go about war. He states that neither real play nor education are found in war, which he holds to be the most important things; war itself is not an endeavor worth pursuing. _“It is the life of peace that everyone should live as much and as well as he can,”_ and as such, the only just war is one waged that there might be peace.
@@ -42,6 +47,9 @@ At the end of the day, these systems are created to amplify the behaviors of man
 When all is said and done, so long as the weapon works, the dominant factor in determining the weapon’s ethicality is its capacity for good and evil. Truly autonomous systems are merely an extreme extension of the humans wielding them, and as such only are as capably good or evil as they are. With this framework in place, we can begin to look at autonomous systems in practice and their potential place in defense.
 
 ## A Brief History of Autonomous Weapons
+
+![The Kettering Aerial Torpedo](https://media.defense.gov/2012/Jul/31/2000129297/780/780/0/120731-F-DW547-001.JPG)
+
 _“We're so enamored of technological advancements that we fail to think about how to best apply those technologies to what we're trying to achieve. This can mask some very important continuities in the nature of war and their implications for our responsibilities as officers.”_ -H.R. McMaster
 
 On October 2, 1918, just one day after Lawrence’s revolt had seized the city of Damascus and effectively reclaimed their independence, the United States tested the world’s first unmanned weapons system. The Kettering Aerial Torpedo, named for its creator, Charles Kettering, was a 530 pound flying bomb that was launched off of guide rails towards its intended target. It featured a primitive in-flight guidance system that provided stability (but no directional control) to the aircraft, and a preset timing mechanism that would send its payload earthward, detonating on impact. The Torpedo, nicknamed “Bug,” would come to be known as the forerunner of present-day cruise missiles.
@@ -92,6 +100,8 @@ With a more realistic accuracy rate of 95%, we begin to run into ethical challen
 
 ## An Argument for Autonomy
 
+![An unmanned aerial system.](https://api.army.mil/e2/c/images/2019/09/25/565918/max1200.jpg)
+
 _“To make robots practical, flaws must be removed."_
 
 _"To make robots endearing, flaws must be added.”_
@@ -125,6 +135,9 @@ Scharre believes the outcome would have been different were a robot in his place
 As with many other situations, it seems that machines outperform humans in some roles, and humans outperform machines in others. In the case of defense, these roles are as rule-followers, and rule-breakers, respectively.
 
 ## The Lesser Evil and the Greater Good
+
+![The atomic bomb.](https://veterans.nv.gov/wp-content/uploads/2019/08/hiroshima-bombing-article-about-atomic-bomb.jpg)
+
 _“Now I am become Death, the destroyer of Worlds.”_ -J. Robert Oppenhiemer
 
 When presented with the monumental choice of what to do with the atomic bomb, President Harry S. Truman ultimately decided to use it. In so doing he changed the dynamics of foreign policy and warfare forever. Truman made his decision not out of malevolence, but out of growing concern for unnecessary loss of life. When faced with an amphibious invasion of Japan or the deployment of an atomic weapon, Truman chose the path of least casualties. And, as far as we can tell, he chose correctly for that metric.
@@ -136,6 +149,9 @@ Not only did these powerfully destructive weapons deter global powers from fight
 There is little reason to believe the world would respond any differently to autonomous weapons. Already we see the world transforming around us in response to them, despite an ongoing ethical debate surrounding their use. AI and the weaponry it enables will be used as deterrents in foreign policy, the face of warfare will shift once again (likely to cyberspace, where AI-driven algorithms will battle it out in cyber attacks and defenses). So long as humanity uses these tools to enhance the human condition in war rather than obsolete it, these weapons will not reverse the peaceful trends of recent times.
 
 ## A Human Element
+
+![U.S. Army Soldiers from Easy Company, 101st Airborne Division (Air Assault), stand by for their night guard shift in Kenya, Jan. 20, 2020. Soldiers from the 101st Airborne Division are assigned to the East Africa Response Force and provide the ability to rapidly respond to events spanning a vast area of responsibility. (U.S. Air Force photo by Staff Sgt. Shawn White)](https://api.army.mil/e2/c/images/2020/03/26/429b5cbe/max1200.jpg)
+
 _“To do no evil is good, to intend none better.”_ -Claudius
 
 Autonomous weapons will irreversibly change the face of war, that much is certain. Their inevitability ensures their universal development - robust arsenals are the surest guarantees of peace. How we choose to develop them here, however, is yet unclear.
